@@ -2,7 +2,7 @@
 # PulseCode
 
 ## Overview
-PulseCode is an ambitious project aimed at enhancing developer productivity and code quality through seamless integration of various tools directly within the Visual Studio Code environment. The project focuses on providing easy access to code analysis, linting, and project management tools through a unified interface. While the project is currently incomplete, the groundwork has been laid for integrating APIs, static code analysis tools like PMD, and automating setup processes for a smoother developer experience.
+PulseCode is a project aimed at enhancing developer productivity and code quality through seamless integration of various tools directly within the Visual Studio Code environment. The project focuses on providing easy access to code analysis, linting, and project management tools through a unified interface. While the project is currently incomplete, the groundwork has been laid for integrating APIs, static code analysis tools like PMD, and automating setup processes for a smoother developer experience.
 
 ### Current Features
 - **API Interaction**: Simplified interface for interacting with GitHub's API to fetch issues and commit messages of a repository. (See `api_interaction.py`)
