@@ -1,0 +1,18 @@
+<!-- In pom.xml, add the PMD plugin within the <build><plugins> section -->
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-pmd-plugin</artifactId>
+    <version>3.14.0</version>
+    <configuration>
+        <rulesets>
+            <ruleset>/rulesets/java/quickstart.xml</ruleset>
+        </rulesets>
+    </configuration>
+    <executions>
+        <execution>
+            <goals>
+                <goal>check</goal>
+            </goals>
+        </execution>
+    </executions>
+</plugin>
